@@ -14,18 +14,12 @@ for elem in range(1, 11):
 print(szamok)
 
 for elem_index in range(len(szamok)-1, 0, -1):
-    max_index = 0
-    csere1 = szamok[elem_index]
-    csere2 = 0
+    max_index = elem_index
     for keresett in range(0, elem_index):
         if szamok[max_index] < szamok[keresett]:
             max_index = keresett
-            csere2 = szamok[max_index]
-    if csere2 > 0:
-        szamok.pop(max_index)
-        szamok.insert(max_index, csere1)
-        szamok.pop(elem_index)
-        szamok.insert(elem_index, csere2)
-        print(szamok)
+    csere = szamok[elem_index]
+    szamok[elem_index] = szamok[max_index]
+    szamok[max_index] = csere
 
 print(szamok)
