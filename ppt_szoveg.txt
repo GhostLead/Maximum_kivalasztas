@@ -1,0 +1,1 @@
+A maximum kiválasztásos rendezés a rendezetlen listában megkeresi elsőnek a legnagyobb értéket, amit hozzámér a listában lévő többi értékhez, ami ha nagyobb, mint az utolsó elem értéke, a vizsgált kettő elem helyét felcseréli. Ez addig ismétlődik, amíg a lista nem rendezett.
