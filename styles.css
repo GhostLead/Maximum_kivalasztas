@@ -10,13 +10,10 @@ body {
     overflow: hidden;
     border-radius: 3%;
     color:white;
+    height: 4rem;
 }
 
-.navigacio a:hover {
-    background-color: rgba(221, 221, 221, 0.952);
-    color: black;
-}
-    
+
 .navigacio a {
     float: left;
     text-align: center;
@@ -25,7 +22,6 @@ body {
     font-size: 20px;
     text-decoration: none;
     display: block;
-
 }
 
 
@@ -47,10 +43,7 @@ font-size: 25px;
 text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 
 }
-.nav-kozep a:hover {
-    background-color: rgba(11, 9, 126, 0.979);
-    color: black;
-}
+
 
 #cim {
     font-size: 4rem;
@@ -126,7 +119,7 @@ text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 
 @keyframes Fel {
     0% {
-      transform: translateY(150%);
+      transform: translateY(100%);
     }
     100% {
       transform: translateY(0);
@@ -169,6 +162,13 @@ section {
   cursor: pointer;
   
 }
+.sidebysidekep p {
+    margin-left: 1.8rem;
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: white;
+    font-family: arial;
+}
 #line{
   margin-top:10%;
   background-color:black;
@@ -178,9 +178,9 @@ h2{
   text-align: center;
 }
 .kepek{
-  border: 2px solid black;
+  border: 2px solid rgb(16, 86, 104);
   padding: 5px;
-  background-color:black;
+  background-color:rgb(37, 105, 194);
 }
 .second{
   width: 100%;
@@ -197,7 +197,7 @@ h2{
   color:white;
 }
 
-.cinema:hover {
+.kepek:hover {
   animation:  shake 0.8s ;
 }
 
