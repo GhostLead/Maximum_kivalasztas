@@ -61,35 +61,11 @@ text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
     font-size: 1.4rem;
     text-align: justify;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    color: rgb(146, 145, 145);
+    color: rgb(49, 49, 49);
     margin-left: 8.6%;
     margin-right:40%;
     
 }
-
-.button {
-    background-color: #1a6fa8;
-    border: none;
-    color: white;
-    padding: 16px 32px;
-    text-align: center;
-    display: inline-block;
-    text-decoration: none;
-    font-size: 15px;
-    margin: 4px 2px;
-    border-radius: 15%;
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
-    transition-duration: 0.4s;
-
-    
-  }
-  .button:hover {
-    background-color: #5c9df3;
-    color: black;
-    transition-duration: 0.4s;
-    cursor: pointer;
-    font-size: large;
-  }
 
 .program_kep{
     float:right;
@@ -126,22 +102,10 @@ text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
     }
 }
   
-  .program_kep {  
-    animation: 1.5s ease-out 0s 1 Fel;
-  }
-@keyframes Fel2 {
-    0% {
-      transform: translateY(600%);
-    }
-    100% {
-      transform: translateY(0);
-    }
+.program_kep {  
+  animation: 1.5s ease-out 0s 1 Fel;
 }
-  
-  .button {  
-    animation: 1.5s ease-out 0s 1 Fel2;
 
-  }
 
 section {
   width: 100%;
@@ -221,3 +185,4 @@ h3 {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
+
